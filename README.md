@@ -41,3 +41,4 @@ is the output size of the layer. Use outembsize = 256. This layer is used for
 obtaining the embedding of the output character and feeding it to the input of
 the decoder for the next time step
 
+![Test Image 1](Compare loss rate between unidirectional and bidirectional encoder.png)
