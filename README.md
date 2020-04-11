@@ -12,7 +12,9 @@ vocabulary (i.e. set of words) and inembsize is the output size of the layer. Us
 inembsize = 256
 
 (b) ENCODER:
+
 – BASIC ENCODER: Bidirectional LSTM layer with encsize outputs in either direction. encsize = 512
+
 – HIERARCHICAL ENCODER : The hierarchical encoder will fist encode the tokens using a token level LSTM. Note
 that the token level bidirectional LSTM should be shared across all the rows. The final state of this LSTM should be then concatenated with the ‘field’ word embedding and then should be passed through another bidirectional LSTM which basically runs over the first column of the given table. For instance, temperature is a field, with token string time 17-30 min 33
 max 60 mean 44 .... GT is the bidirectional LSTM over these token string which will output the final hidden state HT which essentially encodes the information about the temperature field. This state will be then concatenated
