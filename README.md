@@ -1,4 +1,4 @@
-# Structured-Data-to-Text-Descriptions-ses2seq-model
+# Structured-Data-to-Text-Descriptions-seq2seq-model
 
 The objective is to generate a description suited for the given table using sequence to sequence network given a table of facts.
 
